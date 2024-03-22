@@ -1,6 +1,14 @@
+// Components
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+
 const App = () => {
 	return (
-		<h1>Todo</h1>
+		<>
+			<Header />
+
+			<Footer />
+		</>
 	)
 }
 
